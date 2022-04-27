@@ -7,10 +7,10 @@ from TikTokPrinter.types.objects import PrinterText, PrinterImage, VoiceText
 from examples.fancy.client import AdvancedClient
 
 client: AdvancedClient = AdvancedClient(
-    unique_id="@tiktokecidn",
+    unique_id="@butoanee",
     engine=EscposEngineGenerator.create_usb(
-        vendor_id=0x1,  # Vendor ID goes here
-        product_id=0x1,  # Product ID goes here
+        vendor_id=0x0416,  # Vendor ID goes here
+        product_id=0x5011,  # Product ID goes here
         align="center"
     )
 )
@@ -86,17 +86,11 @@ async def on_gift(event: GiftEvent):
     if not event.user:
         return
 
-    # Calculate cost for streakable items that have ended
-    if event.gift.streakable and not event.gift.streaking:
-        diamonds: int = event.gift.extended_gift.diamond_count * event.gift.repeatCount
-
-    # Calculate cost for non-streakable items
-    elif not event.gift.streakable:
-        diamonds: int = event.gift.extended_gift.diamond_count
-
-    # Streakable items that have not ended their streak
-    else:
+    # If it's type 1 and the streak is over
+    if not ((event.gift.gift_type == 1 and event.gift.repeat_end == 1) or event.gift.gift_type != 1):
         return
+
+    diamonds: int = event.gift.extended_gift.diamond_count * event.gift.repeatCount
 
     # If less than 5 diamonds (CHEAP)
     if diamonds < 5:

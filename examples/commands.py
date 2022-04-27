@@ -44,17 +44,11 @@ class TikTokLiveCommandPrinterClient(TikTokPrinterClient):
         if not event.user:
             return
 
-        # Calculate cost for streakable items that have ended
-        if event.gift.streakable and not event.gift.streaking:
-            diamonds: int = event.gift.extended_gift.diamond_count * event.gift.repeatCount
-
-        # Calculate cost for non-streakable items
-        elif not event.gift.streakable:
-            diamonds: int = event.gift.extended_gift.diamond_count
-
-        # Streakable items that have not ended their streak
-        else:
+        # If it's type 1 and the streak is over
+        if not ((event.gift.gift_type == 1 and event.gift.repeat_end == 1) or event.gift.gift_type != 1):
             return
+
+        diamonds: int = event.gift.extended_gift.diamond_count * event.gift.repeatCount
 
         # Threshold stuff
         before = client.donations.get(event.user.uniqueId, 0)
