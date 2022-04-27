@@ -10,5 +10,5 @@ TikTokPrinter Docs
 
 View the above tree for detailed documentation on the package.
 
-.. include:: ../README.md
+.. include:: C:\Users\jeanm\PycharmProjects\TikTokPrinter\README.md
    :parser: myst_parser.sphinx_
