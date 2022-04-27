@@ -1,4 +1,4 @@
-TikTokPrinter - Purchasable Library
+TikTokPrinter - Thermal Printer Software
 ==================
 A python library to print to thermal printers from TikTokLive
 
