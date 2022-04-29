@@ -1,6 +1,6 @@
 TikTokPrinter - Thermal Printer Software
 ==================
-A python library to print to thermal printers from TikTokLive
+A Python library to print to thermal printers from TikTokLive. The #1 best-selling thermal printer library :)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/isaac-kogan-5a45b9193/ )
 [![HitCount](https://hits.dwyl.com/isaackogan/TikTokPrinter.svg?style=flat)](http://hits.dwyl.com/isaackogan/TikTokLive)
@@ -15,11 +15,18 @@ That's why I developed an all-encompassing, multithreaded thermal printing progr
 
 No subscription unlike many virtual printer services. One-time, life-time purchase. Can be installed in python via pip. Includes access to all future releases/updates to the project.
 
+### YouTube Showcase & Tutorial
+
+If you want to see just how powerful this library is (and easy to use), we made a video tutorial & showcase
+that goes through the basics of how to get started using it. Click the thumbnail below to warp.
+
+[![YouTube Tutorial & Showcase](https://i.imgur.com/UoIrSwr.png)](https://www.youtube.com/watch?v=NeapS5Jn_oo)
+
 ### Feature List (30+ Features)
 
 #### Primary Features
 
-- Ready-to-go script included for non-programmers that has everything you need, already put together
+- Ready-to-go script included for non-programmers (basic knowledge still recommended) that has everything you need, already put together
 - Print ANY Message
 - Print Profile Pictures, Gift Images, Custom Images
 - CUSTOM Text to Speech (perhaps when someone gifts?)
@@ -27,10 +34,10 @@ No subscription unlike many virtual printer services. One-time, life-time purcha
 - Support for ALL Serial, USB, and Network ESC-POS printers
 - Automatic setup script
 - Support for MacOS, Windows, Linux
-- ~~Video Setup Tutorial~~ (COMING SOON)
 - Fully documented API
 - Quick-install with PIP
 - Access to future releases/updates
+- Video Set-Up Tutorial
 - Made to be easy to use for newbies
 - Access to private discord chat for clients
 
