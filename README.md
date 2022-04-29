@@ -4,12 +4,11 @@ A Python library to print to thermal printers from TikTokLive.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/isaac-kogan-5a45b9193/ )
 [![HitCount](https://hits.dwyl.com/isaackogan/TikTokPrinter.svg?style=flat)](http://hits.dwyl.com/isaackogan/TikTokLive)
-![Issues](https://img.shields.io/github/issues/isaackogan/TikTokPrinter)
 ![Forks](https://img.shields.io/github/forks/isaackogan/TikTokPrinter)
 ![Stars](https://img.shields.io/github/stars/isaackogan/TikTokPrinter)
 [![Support Server](https://img.shields.io/discord/831349828578574346.svg?color=7289da&logo=discord&style=flat-square)](https://discord.gg/JwW8UwfUmC)
 
-Welcome to the number one best-selling, most customizable & professional-grade tool for thermal printing on TikTok.
+Welcome to the public GitHub information page for the number one best-selling, most customizable & professional-grade tool for thermal printing on TikTok.
 
 Thermal printing is a very recent, very exciting trend on TikTok. It is also a very **complex** one. Not because the topic is difficult in and of itself, but because people want so many different things.
 
