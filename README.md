@@ -12,7 +12,7 @@ Welcome to the public GitHub information page for the number one best-selling, m
 
 Thermal printing is a very recent, very exciting trend on TikTok. It is also a very **complex** one. Not because the topic is difficult in and of itself, but because people want so many different things.
 
-That's why I developed an all-encompassing, multithreaded thermal printing program that does... everything, including a comprehensive ~~video tutorial~~ (COMING SOON) on how to use it, made by me.
+That's why I developed an all-encompassing, multithreaded thermal printing program that does... everything, including a comprehensive [video tutorial](https://www.youtube.com/watch?v=NeapS5Jn_oo) on how to use it, made by me.
 
 No subscription unlike many virtual printer services. One-time, life-time purchase. Can be installed in python via pip. Includes access to all future releases/updates to the project.
 
