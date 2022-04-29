@@ -84,4 +84,15 @@ async def on_tts(context: Context):
 
 
 if __name__ == '__main__':
+    """
+    Receiving an Invalid Endpoint error with a USB printer?
+
+    Try adding “in_ep = 0x81, out_ep = 0x03" to the create_usb function!
+
+    If you are not receiving this error, do not add the additional parameters!
+    
+    If you continue to receive this error, make a ticket & we will handle it together!
+    
+    """
+
     client.run("SESSION_ID_HERE")
