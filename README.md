@@ -29,45 +29,6 @@ Automatically find & use your USB printer.
 
 ![image](https://user-images.githubusercontent.com/65869106/166118006-7c3ccdff-4dc7-48d6-b581-99f28b5e643f.png)
 
-### Feature List (30+ Features)
-
-#### Primary Features
-
-- Ready-to-go script included for non-programmers (basic knowledge still recommended) that has everything you need, already put together
-- Print ANY Message
-- Print Profile Pictures, Gift Images, Custom Images
-- CUSTOM Text to Speech (perhaps when someone gifts?)
-- Play Sounds (perhaps when someone gifts?)
-- Support for ALL Serial, USB, and Network ESC-POS printers
-- Automatic setup script
-- Support for MacOS, Windows, Linux
-- Fully documented API
-- Quick-install with PIP
-- Access to future releases/updates
-- Video Set-Up Tutorial
-- Made to be easy to use for newbies
-- Access to private discord chat for clients
-
-### Additional Features
-
-- Download and print TikTok user avatars, gifts
-- Extremely high level API (There is zero need to touch anything low-level, I've got it covered)
-- 100% Asynchronous Programming
-- Bold messages
-- Left, Right, Center Adjust
-- Newline character support
-- Print backwards (flip the input!)
-- Insert items at the start of the print queue (priority)
-- Insert items at the end of the print queue
-- Insert items at any index in the print queue
-- Custom errors built on top of the API describing what went wrong when it happens
-- Errors do not kill the script. Even if a part of a message breaks, the rest still prints!
-- Send messages to the TikTok LIVE Chat (chat-bot)
-- How-to example on basic usage (using formatting, text-to-speech, sounds, images, etc.)
-- How-to example on using gifts
-- How-to example on using commands
-- How-to example on other features
-
 ### Purchase Details (Cost, Pricing Logic, etc.)
 
 The cost is a flat `$50 USD`. That's insanely cheap.
@@ -116,3 +77,43 @@ async def on_comment(event: CommentEvent):
 
     )
 ```
+
+### Feature List (30+ Features)
+
+#### Primary Features
+
+- Ready-to-go script included for non-programmers (basic knowledge still recommended) that has everything you need, already put together
+- Print ANY Message
+- Print Profile Pictures, Gift Images, Custom Images
+- CUSTOM Text to Speech (perhaps when someone gifts?)
+- Play Sounds (perhaps when someone gifts?)
+- Support for ALL Serial, USB, and Network ESC-POS printers
+- Automatic setup script
+- Support for MacOS, Windows, Linux
+- Fully documented API
+- Quick-install with PIP
+- Access to future releases/updates
+- Video Set-Up Tutorial
+- Made to be easy to use for newbies
+- Access to private discord chat for clients
+
+### Additional Features
+
+- Download and print TikTok user avatars, gifts
+- Extremely high level API (There is zero need to touch anything low-level, I've got it covered)
+- 100% Asynchronous Programming
+- Bold messages
+- Left, Right, Center Adjust
+- Newline character support
+- Print backwards (flip the input!)
+- Insert items at the start of the print queue (priority)
+- Insert items at the end of the print queue
+- Insert items at any index in the print queue
+- Custom errors built on top of the API describing what went wrong when it happens
+- Errors do not kill the script. Even if a part of a message breaks, the rest still prints!
+- Send messages to the TikTok LIVE Chat (chat-bot)
+- How-to example on basic usage (using formatting, text-to-speech, sounds, images, etc.)
+- How-to example on using gifts
+- How-to example on using commands
+- How-to example on other features
+
