@@ -23,6 +23,12 @@ that goes through the basics of how to get started using it. Click the thumbnail
 
 [![YouTube Tutorial & Showcase](https://i.imgur.com/UoIrSwr.png)](https://www.youtube.com/watch?v=NeapS5Jn_oo)
 
+### Auto-Select
+
+Automatically find & use your USB printer.
+
+![image](https://user-images.githubusercontent.com/65869106/166118006-7c3ccdff-4dc7-48d6-b581-99f28b5e643f.png)
+
 ### Feature List (30+ Features)
 
 #### Primary Features
