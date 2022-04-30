@@ -16,7 +16,7 @@ That's why I developed an all-encompassing, multithreaded thermal printing progr
 
 No subscription unlike many virtual printer services. One-time, life-time purchase. Can be installed in python via pip. Includes access to all future releases/updates to the project.
 
-## 💲💲 [GET NOW - CLICK HERE](#how-to-purchase) 💲💲
+## 💲💲 [Purchase Now](#how-to-purchase) 💲💲
 
 ### YouTube Showcase & Tutorial
 
@@ -43,7 +43,7 @@ highly complex script itself, learning all the ways it can go wrong and fixing t
 
 Purchasing this script is an investment that you can make thousands of dollars off of. At this price-point, that's a hell of a deal. You are recommended to have basic Python knowledge to use this library.
 
-### How to Purchase
+### [Purchase Now](https://discord.gg/H8m3c6jSF4)
 
 To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/H8m3c6jSF4.
 
