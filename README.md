@@ -16,7 +16,7 @@ That's why I developed an all-encompassing, multithreaded thermal printing progr
 
 No subscription unlike many virtual printer services. One-time, life-time purchase. Can be installed in python via pip. Includes access to all future releases/updates to the project.
 
-## 💲💲 [Purchase Now](#purchase-now) 💲💲
+## ❤️ [Get It Now](#purchase-now) ❤️
 
 ### YouTube Showcase & Tutorial
 
