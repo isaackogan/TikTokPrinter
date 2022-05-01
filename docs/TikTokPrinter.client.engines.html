@@ -89,6 +89,13 @@
 </section>
 <section id="module-TikTokPrinter.client.engines.console">
 <span id="tiktokprinter-client-engines-console-module"></span><h2>TikTokPrinter.client.engines.console module<a class="headerlink" href="#module-TikTokPrinter.client.engines.console" title="Permalink to this headline"></a></h2>
+<p>Copyright (C) Isaac Kogan, Inc - All Rights Reserved
+Unauthorized copying of this project, via any medium is strictly prohibited
+Proprietary work of Isaac Kogan
+Written by Isaac Kogan &lt;<a class="reference external" href="mailto:isaacikogan&#37;&#52;&#48;gmail&#46;com">isaacikogan<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;, April 2022</p>
+<p>You are permitted to use this project commercially so long as it was purchased firsthand from Isaac Kogan.
+Distributing secondhand copies to others is strictly prohibited &amp; is illegal.</p>
+<p>You can do anything with this project except redistribute it.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="TikTokPrinter.client.engines.console.Console">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">TikTokPrinter.client.engines.console.</span></span><span class="sig-name descname"><span class="pre">Console</span></span><a class="headerlink" href="#TikTokPrinter.client.engines.console.Console" title="Permalink to this definition"></a></dt>
@@ -144,6 +151,13 @@
 </section>
 <section id="module-TikTokPrinter.client.engines.escpos">
 <span id="tiktokprinter-client-engines-escpos-module"></span><h2>TikTokPrinter.client.engines.escpos module<a class="headerlink" href="#module-TikTokPrinter.client.engines.escpos" title="Permalink to this headline"></a></h2>
+<p>Copyright (C) Isaac Kogan, Inc - All Rights Reserved
+Unauthorized copying of this project, via any medium is strictly prohibited
+Proprietary work of Isaac Kogan
+Written by Isaac Kogan &lt;<a class="reference external" href="mailto:isaacikogan&#37;&#52;&#48;gmail&#46;com">isaacikogan<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;, April 2022</p>
+<p>You are permitted to use this project commercially so long as it was purchased firsthand from Isaac Kogan.
+Distributing secondhand copies to others is strictly prohibited &amp; is illegal.</p>
+<p>You can do anything with this project except redistribute it.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="TikTokPrinter.client.engines.escpos.EscposEngine">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">TikTokPrinter.client.engines.escpos.</span></span><span class="sig-name descname"><span class="pre">EscposEngine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">engine</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">escpos.printer.Usb</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">escpos.printer.Serial</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">escpos.printer.Network</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="#TikTokPrinter.client.engines.console.Console" title="TikTokPrinter.client.engines.console.Console"><span class="pre">TikTokPrinter.client.engines.console.Console</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TikTokPrinter.client.engines.escpos.EscposEngine" title="Permalink to this definition"></a></dt>
@@ -224,18 +238,21 @@
 
 <dl class="py method">
 <dt class="sig sig-object py" id="TikTokPrinter.client.engines.escpos.EscposEngineGenerator.create_usb">
-<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">create_usb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vendor_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_ep</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">129</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_ep</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">3</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#TikTokPrinter.client.engines.escpos.EscposEngine" title="TikTokPrinter.client.engines.escpos.EscposEngine"><span class="pre">TikTokPrinter.client.engines.escpos.EscposEngine</span></a></span></span><a class="headerlink" href="#TikTokPrinter.client.engines.escpos.EscposEngineGenerator.create_usb" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">create_usb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vendor_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">product_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">hex</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">auto_find</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_ep_override</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">hex</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_ep_override</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">hex</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#TikTokPrinter.client.engines.escpos.EscposEngine" title="TikTokPrinter.client.engines.escpos.EscposEngine"><span class="pre">TikTokPrinter.client.engines.escpos.EscposEngine</span></a></span></span><a class="headerlink" href="#TikTokPrinter.client.engines.escpos.EscposEngineGenerator.create_usb" title="Permalink to this definition"></a></dt>
 <dd><p>Initialize the EscposEngine with a USB Printer.</p>
 <p>To find the Vendor ID &amp; Product ID of your printer, download USBDeview and find your device.</p>
 <p>For more information on kwargs, visit <a class="reference external" href="https://python-escpos.readthedocs.io/en/latest/">https://python-escpos.readthedocs.io/en/latest/</a>.</p>
+<p>If you receive the Invalid Endpoint address error, pass the following in for a custom in_ep and out_ep:
+in_ep: hex = 0x81, out_ep: hex = 0x03. That <em>might</em> fix it.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
+<li><p><strong>auto_find</strong> – Automatically detect &amp; select from a list of USB devices</p></li>
 <li><p><strong>vendor_id</strong> – Vendor ID of the printer</p></li>
 <li><p><strong>product_id</strong> – Product ID of the printer</p></li>
 <li><p><strong>timeout</strong> – Timeout for printer commands</p></li>
-<li><p><strong>in_ep</strong> – In_ep</p></li>
-<li><p><strong>out_ep</strong> – Out_ep</p></li>
+<li><p><strong>in_ep_override</strong> – Override the auto-found in_ep value with a custom one</p></li>
+<li><p><strong>out_ep_override</strong> – Override the auto-found out_ep value with a custom one</p></li>
 <li><p><strong>args</strong> – Extra arguments</p></li>
 <li><p><strong>kwargs</strong> – Formatting arguments &amp; extra printer arguments</p></li>
 </ul>
@@ -254,6 +271,13 @@
 </section>
 <section id="module-TikTokPrinter.client.engines.sound">
 <span id="tiktokprinter-client-engines-sound-module"></span><h2>TikTokPrinter.client.engines.sound module<a class="headerlink" href="#module-TikTokPrinter.client.engines.sound" title="Permalink to this headline"></a></h2>
+<p>Copyright (C) Isaac Kogan, Inc - All Rights Reserved
+Unauthorized copying of this project, via any medium is strictly prohibited
+Proprietary work of Isaac Kogan
+Written by Isaac Kogan &lt;<a class="reference external" href="mailto:isaacikogan&#37;&#52;&#48;gmail&#46;com">isaacikogan<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;, April 2022</p>
+<p>You are permitted to use this project commercially so long as it was purchased firsthand from Isaac Kogan.
+Distributing secondhand copies to others is strictly prohibited &amp; is illegal.</p>
+<p>You can do anything with this project except redistribute it.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="TikTokPrinter.client.engines.sound.SoundEngine">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">TikTokPrinter.client.engines.sound.</span></span><span class="sig-name descname"><span class="pre">SoundEngine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loop</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">asyncio.events.AbstractEventLoop</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TikTokPrinter.client.engines.sound.SoundEngine" title="Permalink to this definition"></a></dt>
@@ -278,6 +302,13 @@
 </section>
 <section id="module-TikTokPrinter.client.engines.voice">
 <span id="tiktokprinter-client-engines-voice-module"></span><h2>TikTokPrinter.client.engines.voice module<a class="headerlink" href="#module-TikTokPrinter.client.engines.voice" title="Permalink to this headline"></a></h2>
+<p>Copyright (C) Isaac Kogan, Inc - All Rights Reserved
+Unauthorized copying of this project, via any medium is strictly prohibited
+Proprietary work of Isaac Kogan
+Written by Isaac Kogan &lt;<a class="reference external" href="mailto:isaacikogan&#37;&#52;&#48;gmail&#46;com">isaacikogan<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;, April 2022</p>
+<p>You are permitted to use this project commercially so long as it was purchased firsthand from Isaac Kogan.
+Distributing secondhand copies to others is strictly prohibited &amp; is illegal.</p>
+<p>You can do anything with this project except redistribute it.</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="TikTokPrinter.client.engines.voice.VoiceEngine">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">TikTokPrinter.client.engines.voice.</span></span><span class="sig-name descname"><span class="pre">VoiceEngine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">loop</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">asyncio.events.AbstractEventLoop</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TikTokPrinter.client.engines.voice.VoiceEngine" title="Permalink to this definition"></a></dt>
@@ -330,6 +361,13 @@
 </section>
 <section id="module-TikTokPrinter.client.engines">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-TikTokPrinter.client.engines" title="Permalink to this headline"></a></h2>
+<p>Copyright (C) Isaac Kogan, Inc - All Rights Reserved
+Unauthorized copying of this project, via any medium is strictly prohibited
+Proprietary work of Isaac Kogan
+Written by Isaac Kogan &lt;<a class="reference external" href="mailto:isaacikogan&#37;&#52;&#48;gmail&#46;com">isaacikogan<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;, April 2022</p>
+<p>You are permitted to use this project commercially so long as it was purchased firsthand from Isaac Kogan.
+Distributing secondhand copies to others is strictly prohibited &amp; is illegal.</p>
+<p>You can do anything with this project except redistribute it.</p>
 </section>
 </section>
 

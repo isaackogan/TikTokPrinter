@@ -24,11 +24,11 @@ if __name__ == '__main__':
     
     Receiving an Invalid Endpoint error with a USB printer?
 
+    This usually only happens when auto_find is off. Otherwise, the library automatically discovers the endpoints for you!
+
     Try adding “in_ep = 0x81, out_ep = 0x03" to the create_usb function!
     If you are not receiving this error, do not add the additional parameters!
     If you continue to receive this error, try doing out_ep = 0x02. 
-
-    If that still doesn't work, make a ticket & we will handle it together!
 
     """
 
