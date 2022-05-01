@@ -16,12 +16,69 @@ That's why I developed an all-encompassing, multithreaded thermal printing progr
 
 No subscription unlike many virtual printer services. One-time, life-time purchase. Can be installed in python via pip. Includes access to all future releases/updates to the project.
 
+## 💲💲 [Purchase Now](#purchase-now) 💲💲
+
 ### YouTube Showcase & Tutorial
 
 If you want to see just how powerful this library is (and easy to use), we made a video tutorial & showcase
 that goes through the basics of how to get started using it. Click the thumbnail below to warp.
 
 [![YouTube Tutorial & Showcase](https://i.imgur.com/UoIrSwr.png)](https://www.youtube.com/watch?v=NeapS5Jn_oo)
+
+### Auto-Select
+
+Automatically find & use your USB printer.
+
+![image](https://user-images.githubusercontent.com/65869106/166118006-7c3ccdff-4dc7-48d6-b581-99f28b5e643f.png)
+
+### Purchase Details (Cost, Pricing Logic, etc.)
+
+The cost is a flat `$50 USD`. That's insanely cheap.
+
+This library is the most advanced, most purchased printer script on the market. Not only does it have an insane number of features, it was made by the person that _created_
+the TikTokLive library. That gives you a benefit of ensuring that it is not only guaranteed to work, but guaranteed to be the best of the best you will possibly find.
+
+The price is set at what it is because of the ridiculous amount of time spent learning to program, creating the TikTokLive library, figuring out how to print on Windows, MacOS and Linux, creating guides, building the
+highly complex script itself, learning all the ways it can go wrong and fixing them, dealing with customer issues and so much more.
+
+Purchasing this script is an investment that you can make thousands of dollars off of. At this price-point, that's a hell of a deal. You are recommended to have basic Python knowledge to use this library.
+
+### [Purchase Now](https://discord.gg/H8m3c6jSF4)
+
+To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/H8m3c6jSF4.
+
+Type the message "Printer Magic" in the ticket and I will immediately get you started so that you can get to printing as fast as possible!
+
+### Printer Library Example
+
+Here's a sample of what you can do with this library in less than 30 lines of code:
+
+![](https://github.com/isaackogan/TikTokLive/raw/master/.github/RESOURCES/printer.gif)
+
+To show you just how advanced the library is, here we can print a profile picture, play a sound, and do text-to-speech... in just 3 "true" lines of code. This is insane.
+
+```py
+@client.on("comment")
+async def on_comment(event: CommentEvent):
+    client.queue(
+
+        # Divier Text
+        PrinterText("-" * 20),
+
+        # Speak the comment
+        VoiceText(event.user.uniqueId + " said " + event.comment),
+
+        # Print the comment to printer
+        PrinterText(event.user.uniqueId + " -> " + event.comment),
+
+        # Play a sound
+        SoundFile("enchanted.wav"),
+
+        # Download their avatar and print the image
+        PrinterImage(await TikTokMedia.user_image(event.user, circle=False))
+
+    )
+```
 
 ### Feature List (30+ Features)
 
@@ -62,51 +119,3 @@ that goes through the basics of how to get started using it. Click the thumbnail
 - How-to example on using commands
 - How-to example on other features
 
-### Purchase Details (Cost, Pricing Logic, etc.)
-
-The cost is a flat `$50 USD`. That's insanely cheap.
-
-This library is the most advanced, most purchased printer script on the market. Not only does it have an insane number of features, it was made by the person that _created_
-the TikTokLive library. That gives you a benefit of ensuring that it is not only guaranteed to work, but guaranteed to be the best of the best you will possibly find.
-
-The price is set at what it is because of the ridiculous amount of time spent learning to program, creating the TikTokLive library, figuring out how to print on Windows, MacOS and Linux, creating guides, building the
-highly complex script itself, learning all the ways it can go wrong and fixing them, dealing with customer issues and so much more.
-
-Purchasing this script is an investment that you can make thousands of dollars off of. At this price-point, that's a hell of a deal. You are recommended to have basic Python knowledge to use this library.
-
-### How to Purchase
-
-To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/H8m3c6jSF4.
-
-Type the message "Printer Magic" in the ticket and I will immediately get you started so that you can get to printing as fast as possible!
-
-### Printer Library Example
-
-Here's a sample of what you can do with this library in less than 30 lines of code:
-
-![](https://github.com/isaackogan/TikTokLive/raw/master/.github/RESOURCES/printer.gif)
-
-To show you just how advanced the library is, here we can print a profile picture, play a sound, and do text-to-speech... in just 3 "true" lines of code. This is insane.
-
-```py
-@client.on("comment")
-async def on_comment(event: CommentEvent):
-    client.queue(
-
-        # Divier Text
-        PrinterText("-" * 20),
-
-        # Speak the comment
-        VoiceText(event.user.uniqueId + " said " + event.comment),
-
-        # Print the comment to printer
-        PrinterText(event.user.uniqueId + " -> " + event.comment),
-
-        # Play a sound
-        SoundFile("enchanted.wav"),
-
-        # Download their avatar and print the image
-        PrinterImage(await TikTokMedia.user_image(event.user, circle=False))
-
-    )
-```
