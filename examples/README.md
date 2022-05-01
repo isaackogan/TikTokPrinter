@@ -9,15 +9,20 @@ If you want to learn how to customize this library yourself, check out the other
 
 ### Current Examples
 
-- [Basic Implementation](basic.py)
-- [Chat Commands](commands.py)
-- [Using Images](images.py)
-- [Fancy Printer Script](fancy)
+#### Paste & Go (Use right away)
+
+- [Chat Commands (Ready-2-Go)](commands.py)
+- [Fancy Printer (Ready-2-Go)](fancy)
+
+#### Tutorial (Needs Customization)
+
+- [Using Images (Tutorial)](images.py)
+- [Basic Implementation (Tutorial)](basic.py)
+- [Manually VID/PID (Tutorial)](manual.py)
 
 ### Contributing Examples
 
 Create a [pull request](https://github.com/isaackogan/TikTok-Live-Connector/pulls) & I will add your example when I have free time!
-
 
 ### Troubleshooting: Invalid Endpoint Address 0x1
 

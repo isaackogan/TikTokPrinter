@@ -10,8 +10,7 @@ from client import AdvancedClient
 client: AdvancedClient = AdvancedClient(
     unique_id="@butoanee",
     engine=EscposEngineGenerator.create_usb(
-        vendor_id=0x0416,  # Vendor ID goes here
-        product_id=0x5011,  # Product ID goes here
+        auto_find=True,  # Automatically find your printer
         align="center"
     )
 )

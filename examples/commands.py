@@ -63,8 +63,7 @@ class TikTokLiveCommandPrinterClient(TikTokPrinterClient):
 client: TikTokLiveCommandPrinterClient = TikTokLiveCommandPrinterClient(
     unique_id="jakeandrich",
     engine=EscposEngineGenerator.create_usb(
-        vendor_id=0x0416,  # Vendor ID goes here
-        product_id=0x5011,  # Product ID goes here
+        auto_find=True,  # Automatically find your printer
         align="center"
     ),
     command_prefix="/"

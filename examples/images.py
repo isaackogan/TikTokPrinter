@@ -6,8 +6,7 @@ from TikTokPrinter.types.objects import PrinterImage
 client: TikTokPrinterClient = TikTokPrinterClient(
     unique_id="USERNAME_HERE",
     engine=EscposEngineGenerator.create_usb(
-        vendor_id=0x1,  # Vendor ID goes here
-        product_id=0x1,  # Product ID goes here
+        auto_find=True,  # Automatically find your printer
         align="center"
     )
 )
