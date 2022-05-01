@@ -85,6 +85,7 @@ async def on_comment(event: CommentEvent):
 #### Primary Features
 
 - Ready-to-go script included for non-programmers (basic knowledge still recommended) that has everything you need, already put together
+- Automatically find your printer device
 - Print ANY Message
 - Print Profile Pictures, Gift Images, Custom Images
 - CUSTOM Text to Speech (perhaps when someone gifts?)
@@ -118,4 +119,5 @@ async def on_comment(event: CommentEvent):
 - How-to example on using gifts
 - How-to example on using commands
 - How-to example on other features
+- Automatically find in_ep and out_ep values
 
