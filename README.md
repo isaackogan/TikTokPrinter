@@ -43,7 +43,7 @@ highly complex script itself, learning all the ways it can go wrong and fixing t
 
 Purchasing this script is an investment that you can make thousands of dollars off of. At this price-point, that's a hell of a deal. You are recommended to have basic Python knowledge to use this library.
 
-### [Purchase Now](https://discord.gg/H8m3c6jSF4)
+### [Purchase Now](https://discord.gg/4Mbw58w5Qx)
 
 To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/4Mbw58w5Qx.
 
