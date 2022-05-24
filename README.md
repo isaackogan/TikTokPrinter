@@ -45,7 +45,7 @@ Purchasing this script is an investment that you can make thousands of dollars o
 
 ### [Purchase Now](https://discord.gg/H8m3c6jSF4)
 
-To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/H8m3c6jSF4.
+To buy this library, create a ticket in the `#tickets` channel in https://discord.gg/4Mbw58w5Qx.
 
 Type the message "Printer Magic" in the ticket and I will immediately get you started so that you can get to printing as fast as possible!
 
