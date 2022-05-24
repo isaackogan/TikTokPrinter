@@ -6,7 +6,7 @@ A Python library to print to thermal printers from TikTokLive.
 [![HitCount](https://hits.dwyl.com/isaackogan/TikTokPrinter.svg?style=flat)](http://hits.dwyl.com/isaackogan/TikTokLive)
 ![Forks](https://img.shields.io/github/forks/isaackogan/TikTokPrinter)
 ![Stars](https://img.shields.io/github/stars/isaackogan/TikTokPrinter)
-[![Support Server](https://img.shields.io/discord/831349828578574346.svg?color=7289da&logo=discord&style=flat-square)](https://discord.gg/JwW8UwfUmC)
+[![Support Server](https://img.shields.io/discord/977648006063091742.svg?color=7289da&logo=discord&style=flat-square&t=2)](https://discord.gg/e2XwPNTBBr)
 
 Welcome to the public GitHub information page for the number one best-selling, most customizable & professional-grade tool for thermal printing on TikTok.
 
