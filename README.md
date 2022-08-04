@@ -35,7 +35,7 @@ Automatically find & use your USB printer.
 
 ### Purchase Details (Cost, Pricing Logic, etc.)
 
-The cost is a flat `$29.99 USD`. 
+The cost is a flat `$25.90 USD`. 
 
 This library is the most advanced, most purchased printer script on the market. Not only does it have an insane number of features, it was made by the person that _created_
 the TikTokLive library. That gives you a benefit of ensuring that it is not only guaranteed to work, but guaranteed to be the best of the best you will possibly find.
