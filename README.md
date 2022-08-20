@@ -2,7 +2,7 @@ TikTokPrinter - Thermal Printer Software
 ==================
 A Python library to print to thermal printers from TikTokLive.
 
-# This project has been shut down
+### This project has been abandoned
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/isaac-kogan-5a45b9193/ )
 [![HitCount](https://hits.dwyl.com/isaackogan/TikTokPrinter.svg?style=flat)](http://hits.dwyl.com/isaackogan/TikTokLive)
